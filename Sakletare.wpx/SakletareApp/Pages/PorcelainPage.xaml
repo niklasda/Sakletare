@@ -1,0 +1,93 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Silver.Wp7.Pages.PorcelainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Porslinmönster" >
+
+
+            <controls:PanoramaItem Header="Picknick - Rörstrand" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image2" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/picknick.png" />
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Berså - Gustavsberg" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image1" Stretch="None" VerticalAlignment="Top" Width="420"
+                           Source="/Silver;component/Images/Porcelain/bersaa.png" />
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Blå Blom - Gustavsberg" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image3" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/blaablom.png" />
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Blå Eld - Rörstrand" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image4" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/blaaeld.png" />
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Flora" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image5" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/flora.png" />
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Mon Amie - Rörstrand" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image6" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/monamie.png" />
+                </Grid>
+            </controls:PanoramaItem>
+
+
+            <controls:PanoramaItem Header="Swedish Grace - Rörstrand" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image7" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/grace.png" />
+                </Grid>
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="Ostindia - Rörstrand" >
+            <Grid>
+                <Image Height="500" HorizontalAlignment="Left" x:Name="image8" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/ostindia.png" />
+            </Grid>
+        </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="Musselmalet - Royal Copenhagen" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image9" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/musselmalet.png" />
+                </Grid>
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="Blå blomst - Royal Copenhagen" >
+                <Grid>
+                    <Image Height="500" HorizontalAlignment="Left" x:Name="image10" Stretch="None" VerticalAlignment="Top" Width="420" 
+                           Source="/Silver;component/Images/Porcelain/blaablomst.png" />
+                </Grid>
+            </controls:PanoramaItem>
+
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

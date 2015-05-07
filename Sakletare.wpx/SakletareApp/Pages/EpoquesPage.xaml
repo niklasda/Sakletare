@@ -1,0 +1,54 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Silver.Wp7.Pages.EpoquesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+    <ScrollViewer >
+
+        <!--LayoutRoot is the root grid where all page content is placed-->
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+                <TextBlock x:Name="ApplicationTitle" Text="Sakletarhjälp" Style="{StaticResource PhoneTextNormalStyle}"/>
+                <TextBlock x:Name="PageTitle" Text="Epoker" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            </StackPanel>
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,010,0,0" x:Name="textBlock01" Text="Högrenässans" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,040,0,0" x:Name="textBlock02" Text="Renässans" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,070,0,0" x:Name="textBlock03" Text="Ungbarock" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,100,0,0" x:Name="textBlock04" Text="Högbarock" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,130,0,0" x:Name="textBlock05" Text="Senbarock" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,160,0,0" x:Name="textBlock06" Text="Rokoko (Régence)" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,190,0,0" x:Name="textBloc076" Text="Rokoko (Rocaille)" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,220,0,0" x:Name="textBlock08" Text="Rokoko (Pompadour)" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,250,0,0" x:Name="textBlock09" Text="Gustaviansk" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,280,0,0" x:Name="textBlock10" Text="Nyklassicism" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,310,0,0" x:Name="textBlock11" Text="Romantiken" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,340,0,0" x:Name="textBlock12" Text="Empir" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,370,0,0" x:Name="textBlock13" Text="Nygotik" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,400,0,0" x:Name="textBlock14" Text="Nyrokoko" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,430,0,0" x:Name="textBlock15" Text="Nygustaviansk" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,460,0,0" x:Name="textBlock16" Text="Nybarock" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,490,0,0" x:Name="textBlock17" Text="Nyrenässans" VerticalAlignment="Top" />
+                <TextBlock Height="30" HorizontalAlignment="Left" Margin="10,520,0,0" x:Name="textBlock18" Text="Jugend" VerticalAlignment="Top" />
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+
+
+</phone:PhoneApplicationPage>

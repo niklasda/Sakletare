@@ -1,0 +1,544 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Silver.Wp7.Pages.YearsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <controls:Panorama Title="årtalsstämplar">
+            <controls:PanoramaItem Header="1-6">
+                <ScrollViewer >
+                    <Grid Height="840" HorizontalAlignment="Left" x:Name="grid1AZ16" VerticalAlignment="Top" Width="393" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text=" " FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="1" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="2" Text="2" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="3" Text="3" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="4" Text="4" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="5" Text="5" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="6" Text="6" FontWeight="Bold" />
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="A" FontWeight="Bold" />
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="1759"  />
+                        <TextBlock Grid.Row="1" Grid.Column="2" Text="1783"  />
+                        <TextBlock Grid.Row="1" Grid.Column="3" Text="1807"  />
+                        <TextBlock Grid.Row="1" Grid.Column="4" Text="1831"  />
+                        <TextBlock Grid.Row="1" Grid.Column="5" Text="1855"  />
+                        <TextBlock Grid.Row="1" Grid.Column="6" Text="1879"  />
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="B" FontWeight="Bold" />
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="1760"  />
+                        <TextBlock Grid.Row="2" Grid.Column="2" Text="1784"  />
+                        <TextBlock Grid.Row="2" Grid.Column="3" Text="1808"  />
+                        <TextBlock Grid.Row="2" Grid.Column="4" Text="1832"  />
+                        <TextBlock Grid.Row="2" Grid.Column="5" Text="1856"  />
+                        <TextBlock Grid.Row="2" Grid.Column="6" Text="1880"  />
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="C" FontWeight="Bold"  />
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="1761"  />
+                        <TextBlock Grid.Row="3" Grid.Column="2" Text="1785"  />
+                        <TextBlock Grid.Row="3" Grid.Column="3" Text="1809"  />
+                        <TextBlock Grid.Row="3" Grid.Column="4" Text="1833"  />
+                        <TextBlock Grid.Row="3" Grid.Column="5" Text="1857"  />
+                        <TextBlock Grid.Row="3" Grid.Column="6" Text="1881"  />
+
+                        <TextBlock Grid.Row="4" Grid.Column="0" Text="D" FontWeight="Bold" />
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="1762"  />
+                        <TextBlock Grid.Row="4" Grid.Column="2" Text="1786"  />
+                        <TextBlock Grid.Row="4" Grid.Column="3" Text="1810"  />
+                        <TextBlock Grid.Row="4" Grid.Column="4" Text="1834"  />
+                        <TextBlock Grid.Row="4" Grid.Column="5" Text="1858"  />
+                        <TextBlock Grid.Row="4" Grid.Column="6" Text="1882"  />
+
+                        <TextBlock Grid.Row="5" Grid.Column="0" Text="E" FontWeight="Bold" />
+                        <TextBlock Grid.Row="5" Grid.Column="1" Text="1763"  />
+                        <TextBlock Grid.Row="5" Grid.Column="2" Text="1787"  />
+                        <TextBlock Grid.Row="5" Grid.Column="3" Text="1811"  />
+                        <TextBlock Grid.Row="5" Grid.Column="4" Text="1835"  />
+                        <TextBlock Grid.Row="5" Grid.Column="5" Text="1859"  />
+                        <TextBlock Grid.Row="5" Grid.Column="6" Text="1883"  />
+
+                        <TextBlock Grid.Row="6" Grid.Column="0" Text="F" FontWeight="Bold" />
+                        <TextBlock Grid.Row="6" Grid.Column="1" Text="1764"  />
+                        <TextBlock Grid.Row="6" Grid.Column="2" Text="1788"  />
+                        <TextBlock Grid.Row="6" Grid.Column="3" Text="1812"  />
+                        <TextBlock Grid.Row="6" Grid.Column="4" Text="1836"  />
+                        <TextBlock Grid.Row="6" Grid.Column="5" Text="1860"  />
+                        <TextBlock Grid.Row="6" Grid.Column="6" Text="1884"  />
+
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="G" FontWeight="Bold" />
+                        <TextBlock Grid.Row="7" Grid.Column="1" Text="1765"  />
+                        <TextBlock Grid.Row="7" Grid.Column="2" Text="1789"  />
+                        <TextBlock Grid.Row="7" Grid.Column="3" Text="1813"  />
+                        <TextBlock Grid.Row="7" Grid.Column="4" Text="1837"  />
+                        <TextBlock Grid.Row="7" Grid.Column="5" Text="1861"  />
+                        <TextBlock Grid.Row="7" Grid.Column="6" Text="1885"  />
+
+                        <TextBlock Grid.Row="8" Grid.Column="0" Text="H" FontWeight="Bold" />
+                        <TextBlock Grid.Row="8" Grid.Column="1" Text="1766"  />
+                        <TextBlock Grid.Row="8" Grid.Column="2" Text="1790"  />
+                        <TextBlock Grid.Row="8" Grid.Column="3" Text="1814"  />
+                        <TextBlock Grid.Row="8" Grid.Column="4" Text="1838"  />
+                        <TextBlock Grid.Row="8" Grid.Column="5" Text="1862"  />
+                        <TextBlock Grid.Row="8" Grid.Column="6" Text="1886"  />
+
+                        <TextBlock Grid.Row="9" Grid.Column="0" Text="I" FontWeight="Bold" />
+                        <TextBlock Grid.Row="9" Grid.Column="1" Text="1767"  />
+                        <TextBlock Grid.Row="9" Grid.Column="2" Text="1791"  />
+                        <TextBlock Grid.Row="9" Grid.Column="3" Text="1815"  />
+                        <TextBlock Grid.Row="9" Grid.Column="4" Text="1839"  />
+                        <TextBlock Grid.Row="9" Grid.Column="5" Text="1863"  />
+                        <TextBlock Grid.Row="9" Grid.Column="6" Text="1887"  />
+
+                        <TextBlock Grid.Row="10" Grid.Column="0" Text="K" FontWeight="Bold" />
+                        <TextBlock Grid.Row="10" Grid.Column="1" Text="1768"  />
+                        <TextBlock Grid.Row="10" Grid.Column="2" Text="1792"  />
+                        <TextBlock Grid.Row="10" Grid.Column="3" Text="1816"  />
+                        <TextBlock Grid.Row="10" Grid.Column="4" Text="1840"  />
+                        <TextBlock Grid.Row="10" Grid.Column="5" Text="1864"  />
+                        <TextBlock Grid.Row="10" Grid.Column="6" Text="1888"  />
+
+                        <TextBlock Grid.Row="11" Grid.Column="0" Text="L" FontWeight="Bold" />
+                        <TextBlock Grid.Row="11" Grid.Column="1" Text="1769"  />
+                        <TextBlock Grid.Row="11" Grid.Column="2" Text="1793"  />
+                        <TextBlock Grid.Row="11" Grid.Column="3" Text="1817"  />
+                        <TextBlock Grid.Row="11" Grid.Column="4" Text="1841"  />
+                        <TextBlock Grid.Row="11" Grid.Column="5" Text="1865"  />
+                        <TextBlock Grid.Row="11" Grid.Column="6" Text="1889"  />
+
+                        <TextBlock Grid.Row="12" Grid.Column="0" Text="M" FontWeight="Bold" />
+                        <TextBlock Grid.Row="12" Grid.Column="1" Text="1770"  />
+                        <TextBlock Grid.Row="12" Grid.Column="2" Text="1794"  />
+                        <TextBlock Grid.Row="12" Grid.Column="3" Text="1818"  />
+                        <TextBlock Grid.Row="12" Grid.Column="4" Text="1842"  />
+                        <TextBlock Grid.Row="12" Grid.Column="5" Text="1866"  />
+                        <TextBlock Grid.Row="12" Grid.Column="6" Text="1890"  />
+
+                        <TextBlock Grid.Row="13" Grid.Column="0" Text="N" FontWeight="Bold" />
+                        <TextBlock Grid.Row="13" Grid.Column="1" Text="1771"  />
+                        <TextBlock Grid.Row="13" Grid.Column="2" Text="1795"  />
+                        <TextBlock Grid.Row="13" Grid.Column="3" Text="1819"  />
+                        <TextBlock Grid.Row="13" Grid.Column="4" Text="1843"  />
+                        <TextBlock Grid.Row="13" Grid.Column="5" Text="1867"  />
+                        <TextBlock Grid.Row="13" Grid.Column="6" Text="1891"  />
+
+                        <TextBlock Grid.Row="14" Grid.Column="0" Text="O" FontWeight="Bold" />
+                        <TextBlock Grid.Row="14" Grid.Column="1" Text="1772"  />
+                        <TextBlock Grid.Row="14" Grid.Column="2" Text="1796"  />
+                        <TextBlock Grid.Row="14" Grid.Column="3" Text="1820"  />
+                        <TextBlock Grid.Row="14" Grid.Column="4" Text="1844"  />
+                        <TextBlock Grid.Row="14" Grid.Column="5" Text="1868"  />
+                        <TextBlock Grid.Row="14" Grid.Column="6" Text="1892"  />
+
+                        <TextBlock Grid.Row="15" Grid.Column="0" Text="P" FontWeight="Bold" />
+                        <TextBlock Grid.Row="15" Grid.Column="1" Text="1773"  />
+                        <TextBlock Grid.Row="15" Grid.Column="2" Text="1797"  />
+                        <TextBlock Grid.Row="15" Grid.Column="3" Text="1821"  />
+                        <TextBlock Grid.Row="15" Grid.Column="4" Text="1845"  />
+                        <TextBlock Grid.Row="15" Grid.Column="5" Text="1869"  />
+                        <TextBlock Grid.Row="15" Grid.Column="6" Text="1893"  />
+
+                        <TextBlock Grid.Row="16" Grid.Column="0" Text="Q" FontWeight="Bold" />
+                        <TextBlock Grid.Row="16" Grid.Column="1" Text="1774"  />
+                        <TextBlock Grid.Row="16" Grid.Column="2" Text="1798"  />
+                        <TextBlock Grid.Row="16" Grid.Column="3" Text="1822"  />
+                        <TextBlock Grid.Row="16" Grid.Column="4" Text="1846"  />
+                        <TextBlock Grid.Row="16" Grid.Column="5" Text="1870"  />
+                        <TextBlock Grid.Row="16" Grid.Column="6" Text="1894"  />
+
+                        <TextBlock Grid.Row="17" Grid.Column="0" Text="R" FontWeight="Bold" />
+                        <TextBlock Grid.Row="17" Grid.Column="1" Text="1775"  />
+                        <TextBlock Grid.Row="17" Grid.Column="2" Text="1799"  />
+                        <TextBlock Grid.Row="17" Grid.Column="3" Text="1823"  />
+                        <TextBlock Grid.Row="17" Grid.Column="4" Text="1847"  />
+                        <TextBlock Grid.Row="17" Grid.Column="5" Text="1871"  />
+                        <TextBlock Grid.Row="17" Grid.Column="6" Text="1895"  />
+
+                        <TextBlock Grid.Row="18" Grid.Column="0" Text="S" FontWeight="Bold" />
+                        <TextBlock Grid.Row="18" Grid.Column="1" Text="1776"  />
+                        <TextBlock Grid.Row="18" Grid.Column="2" Text="1800"  />
+                        <TextBlock Grid.Row="18" Grid.Column="3" Text="1824"  />
+                        <TextBlock Grid.Row="18" Grid.Column="4" Text="1848"  />
+                        <TextBlock Grid.Row="18" Grid.Column="5" Text="1872"  />
+                        <TextBlock Grid.Row="18" Grid.Column="6" Text="1896"  />
+
+                        <TextBlock Grid.Row="19" Grid.Column="0" Text="T" FontWeight="Bold" />
+                        <TextBlock Grid.Row="19" Grid.Column="1" Text="1777"  />
+                        <TextBlock Grid.Row="19" Grid.Column="2" Text="1801"  />
+                        <TextBlock Grid.Row="19" Grid.Column="3" Text="1825"  />
+                        <TextBlock Grid.Row="19" Grid.Column="4" Text="1849"  />
+                        <TextBlock Grid.Row="19" Grid.Column="5" Text="1873"  />
+                        <TextBlock Grid.Row="19" Grid.Column="6" Text="1897"  />
+
+                        <TextBlock Grid.Row="20" Grid.Column="0" Text="U" FontWeight="Bold" />
+                        <TextBlock Grid.Row="20" Grid.Column="1" Text="1778"  />
+                        <TextBlock Grid.Row="20" Grid.Column="2" Text="1802"  />
+                        <TextBlock Grid.Row="20" Grid.Column="3" Text="1826"  />
+                        <TextBlock Grid.Row="20" Grid.Column="4" Text="1850"  />
+                        <TextBlock Grid.Row="20" Grid.Column="5" Text="1874"  />
+                        <TextBlock Grid.Row="20" Grid.Column="6" Text="1898"  />
+
+                        <TextBlock Grid.Row="21" Grid.Column="0" Text="V" FontWeight="Bold" />
+                        <TextBlock Grid.Row="21" Grid.Column="1" Text="1779"  />
+                        <TextBlock Grid.Row="21" Grid.Column="2" Text="1803"  />
+                        <TextBlock Grid.Row="21" Grid.Column="3" Text="1827"  />
+                        <TextBlock Grid.Row="21" Grid.Column="4" Text="1851"  />
+                        <TextBlock Grid.Row="21" Grid.Column="5" Text="1875"  />
+                        <TextBlock Grid.Row="21" Grid.Column="6" Text="1899"  />
+
+                        <TextBlock Grid.Row="22" Grid.Column="0" Text="X" FontWeight="Bold" />
+                        <TextBlock Grid.Row="22" Grid.Column="1" Text="1780"  />
+                        <TextBlock Grid.Row="22" Grid.Column="2" Text="1804"  />
+                        <TextBlock Grid.Row="22" Grid.Column="3" Text="1828"  />
+                        <TextBlock Grid.Row="22" Grid.Column="4" Text="1852"  />
+                        <TextBlock Grid.Row="22" Grid.Column="5" Text="1876"  />
+                        <TextBlock Grid.Row="22" Grid.Column="6" Text="1900"  />
+
+                        <TextBlock Grid.Row="23" Grid.Column="0" Text="Y" FontWeight="Bold" />
+                        <TextBlock Grid.Row="23" Grid.Column="1" Text="1781"  />
+                        <TextBlock Grid.Row="23" Grid.Column="2" Text="1805"  />
+                        <TextBlock Grid.Row="23" Grid.Column="3" Text="1829"  />
+                        <TextBlock Grid.Row="23" Grid.Column="4" Text="1853"  />
+                        <TextBlock Grid.Row="23" Grid.Column="5" Text="1877"  />
+                        <TextBlock Grid.Row="23" Grid.Column="6" Text="1901"  />
+
+                        <TextBlock Grid.Row="24" Grid.Column="0" Text="Z" FontWeight="Bold" />
+                        <TextBlock Grid.Row="24" Grid.Column="1" Text="1782"  />
+                        <TextBlock Grid.Row="24" Grid.Column="2" Text="1806"  />
+                        <TextBlock Grid.Row="24" Grid.Column="3" Text="1830"  />
+                        <TextBlock Grid.Row="24" Grid.Column="4" Text="1854"  />
+                        <TextBlock Grid.Row="24" Grid.Column="5" Text="1878"  />
+                        <TextBlock Grid.Row="24" Grid.Column="6" Text="1902"  />
+
+                        <TextBlock Grid.Row="25" Grid.Column="0" Text=" " FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="1" Text="1" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="2" Text="2" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="3" Text="3" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="4" Text="4" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="5" Text="5" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="6" Text="6" FontWeight="Bold" />
+
+                    </Grid>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="7-11">
+                <ScrollViewer >
+                    <Grid Height="840" HorizontalAlignment="Left" x:Name="gridAZ711" VerticalAlignment="Top" Width="393" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text=" " FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="7" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="2" Text="8" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="3" Text="9" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="4" Text="10" FontWeight="Bold" />
+                        <TextBlock Grid.Row="0" Grid.Column="5" Text="11" FontWeight="Bold" />
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="A" FontWeight="Bold" />
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="1903"  />
+                        <TextBlock Grid.Row="1" Grid.Column="2" Text="1927"  />
+                        <TextBlock Grid.Row="1" Grid.Column="3" Text="1951"  />
+                        <TextBlock Grid.Row="1" Grid.Column="4" Text="1975"  />
+                        <TextBlock Grid.Row="1" Grid.Column="5" Text="1999"  />
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="B" FontWeight="Bold" />
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="1904"  />
+                        <TextBlock Grid.Row="2" Grid.Column="2" Text="1928"  />
+                        <TextBlock Grid.Row="2" Grid.Column="3" Text="1952"  />
+                        <TextBlock Grid.Row="2" Grid.Column="4" Text="1976"  />
+                        <TextBlock Grid.Row="2" Grid.Column="5" Text="2000"  />
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="C" FontWeight="Bold" />
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="1905"  />
+                        <TextBlock Grid.Row="3" Grid.Column="2" Text="1929"  />
+                        <TextBlock Grid.Row="3" Grid.Column="3" Text="1953"  />
+                        <TextBlock Grid.Row="3" Grid.Column="4" Text="1977"  />
+                        <TextBlock Grid.Row="3" Grid.Column="5" Text="2001"  />
+
+                        <TextBlock Grid.Row="4" Grid.Column="0" Text="D" FontWeight="Bold" />
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="1906"  />
+                        <TextBlock Grid.Row="4" Grid.Column="2" Text="1930"  />
+                        <TextBlock Grid.Row="4" Grid.Column="3" Text="1954"  />
+                        <TextBlock Grid.Row="4" Grid.Column="4" Text="1978"  />
+                        <TextBlock Grid.Row="4" Grid.Column="5" Text="2002"  />
+
+                        <TextBlock Grid.Row="5" Grid.Column="0" Text="E" FontWeight="Bold" />
+                        <TextBlock Grid.Row="5" Grid.Column="1" Text="1907"  />
+                        <TextBlock Grid.Row="5" Grid.Column="2" Text="1931"  />
+                        <TextBlock Grid.Row="5" Grid.Column="3" Text="1955"  />
+                        <TextBlock Grid.Row="5" Grid.Column="4" Text="1979"  />
+                        <TextBlock Grid.Row="5" Grid.Column="5" Text="2003"  />
+
+                        <TextBlock Grid.Row="6" Grid.Column="0" Text="F" FontWeight="Bold" />
+                        <TextBlock Grid.Row="6" Grid.Column="1" Text="1908"  />
+                        <TextBlock Grid.Row="6" Grid.Column="2" Text="1932"  />
+                        <TextBlock Grid.Row="6" Grid.Column="3" Text="1956"  />
+                        <TextBlock Grid.Row="6" Grid.Column="4" Text="1980"  />
+                        <TextBlock Grid.Row="6" Grid.Column="5" Text="2004"  />
+
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="G" FontWeight="Bold" />
+                        <TextBlock Grid.Row="7" Grid.Column="1" Text="1909"  />
+                        <TextBlock Grid.Row="7" Grid.Column="2" Text="1933"  />
+                        <TextBlock Grid.Row="7" Grid.Column="3" Text="1957"  />
+                        <TextBlock Grid.Row="7" Grid.Column="4" Text="1981"  />
+                        <TextBlock Grid.Row="7" Grid.Column="5" Text="2005"  />
+
+                        <TextBlock Grid.Row="8" Grid.Column="0" Text="H" FontWeight="Bold" />
+                        <TextBlock Grid.Row="8" Grid.Column="1" Text="1910"  />
+                        <TextBlock Grid.Row="8" Grid.Column="2" Text="1934"  />
+                        <TextBlock Grid.Row="8" Grid.Column="3" Text="1958"  />
+                        <TextBlock Grid.Row="8" Grid.Column="4" Text="1982"  />
+                        <TextBlock Grid.Row="8" Grid.Column="5" Text="2006"  />
+
+                        <TextBlock Grid.Row="9" Grid.Column="0" Text="I" FontWeight="Bold" />
+                        <TextBlock Grid.Row="9" Grid.Column="1" Text="1911"  />
+                        <TextBlock Grid.Row="9" Grid.Column="2" Text="1935"  />
+                        <TextBlock Grid.Row="9" Grid.Column="3" Text="1959"  />
+                        <TextBlock Grid.Row="9" Grid.Column="4" Text="1983"  />
+                        <TextBlock Grid.Row="9" Grid.Column="5" Text="2007"  />
+
+                        <TextBlock Grid.Row="10" Grid.Column="0" Text="K" FontWeight="Bold" />
+                        <TextBlock Grid.Row="10" Grid.Column="1" Text="1912"  />
+                        <TextBlock Grid.Row="10" Grid.Column="2" Text="1936"  />
+                        <TextBlock Grid.Row="10" Grid.Column="3" Text="1960"  />
+                        <TextBlock Grid.Row="10" Grid.Column="4" Text="1984"  />
+                        <TextBlock Grid.Row="10" Grid.Column="5" Text="2008"  />
+
+                        <TextBlock Grid.Row="11" Grid.Column="0" Text="L" FontWeight="Bold" />
+                        <TextBlock Grid.Row="11" Grid.Column="1" Text="1913"  />
+                        <TextBlock Grid.Row="11" Grid.Column="2" Text="1937"  />
+                        <TextBlock Grid.Row="11" Grid.Column="3" Text="1961"  />
+                        <TextBlock Grid.Row="11" Grid.Column="4" Text="1985"  />
+                        <TextBlock Grid.Row="11" Grid.Column="5" Text="2009"  />
+
+                        <TextBlock Grid.Row="12" Grid.Column="0" Text="M" FontWeight="Bold" />
+                        <TextBlock Grid.Row="12" Grid.Column="1" Text="1914"  />
+                        <TextBlock Grid.Row="12" Grid.Column="2" Text="1938"  />
+                        <TextBlock Grid.Row="12" Grid.Column="3" Text="1962"  />
+                        <TextBlock Grid.Row="12" Grid.Column="4" Text="1986"  />
+                        <TextBlock Grid.Row="12" Grid.Column="5" Text="2010"  />
+
+                        <TextBlock Grid.Row="13" Grid.Column="0" Text="N" FontWeight="Bold" />
+                        <TextBlock Grid.Row="13" Grid.Column="1" Text="1915"  />
+                        <TextBlock Grid.Row="13" Grid.Column="2" Text="1939"  />
+                        <TextBlock Grid.Row="13" Grid.Column="3" Text="1963"  />
+                        <TextBlock Grid.Row="13" Grid.Column="4" Text="1987"  />
+                        <TextBlock Grid.Row="13" Grid.Column="5" Text="2011"  />
+
+                        <TextBlock Grid.Row="14" Grid.Column="0" Text="O" FontWeight="Bold" />
+                        <TextBlock Grid.Row="14" Grid.Column="1" Text="1916"  />
+                        <TextBlock Grid.Row="14" Grid.Column="2" Text="1940"  />
+                        <TextBlock Grid.Row="14" Grid.Column="3" Text="1964"  />
+                        <TextBlock Grid.Row="14" Grid.Column="4" Text="1988"  />
+                        <TextBlock Grid.Row="14" Grid.Column="5" Text="2012"  />
+
+                        <TextBlock Grid.Row="15" Grid.Column="0" Text="P" FontWeight="Bold" />
+                        <TextBlock Grid.Row="15" Grid.Column="1" Text="1917"  />
+                        <TextBlock Grid.Row="15" Grid.Column="2" Text="1941"  />
+                        <TextBlock Grid.Row="15" Grid.Column="3" Text="1965"  />
+                        <TextBlock Grid.Row="15" Grid.Column="4" Text="1989"  />
+                        <TextBlock Grid.Row="15" Grid.Column="5" Text="2013"  />
+
+                        <TextBlock Grid.Row="16" Grid.Column="0" Text="Q" FontWeight="Bold" />
+                        <TextBlock Grid.Row="16" Grid.Column="1" Text="1918"  />
+                        <TextBlock Grid.Row="16" Grid.Column="2" Text="1942"  />
+                        <TextBlock Grid.Row="16" Grid.Column="3" Text="1966"  />
+                        <TextBlock Grid.Row="16" Grid.Column="4" Text="1990"  />
+                        <TextBlock Grid.Row="16" Grid.Column="5" Text="2014"  />
+
+                        <TextBlock Grid.Row="17" Grid.Column="0" Text="R" FontWeight="Bold" />
+                        <TextBlock Grid.Row="17" Grid.Column="1" Text="1919"  />
+                        <TextBlock Grid.Row="17" Grid.Column="2" Text="1943"  />
+                        <TextBlock Grid.Row="17" Grid.Column="3" Text="1967"  />
+                        <TextBlock Grid.Row="17" Grid.Column="4" Text="1991"  />
+                        <TextBlock Grid.Row="17" Grid.Column="5" Text="2015"  />
+
+                        <TextBlock Grid.Row="18" Grid.Column="0" Text="S" FontWeight="Bold" />
+                        <TextBlock Grid.Row="18" Grid.Column="1" Text="1920"  />
+                        <TextBlock Grid.Row="18" Grid.Column="2" Text="1944"  />
+                        <TextBlock Grid.Row="18" Grid.Column="3" Text="1968"  />
+                        <TextBlock Grid.Row="18" Grid.Column="4" Text="1992"  />
+                        <TextBlock Grid.Row="18" Grid.Column="5" Text="2016"  />
+
+                        <TextBlock Grid.Row="19" Grid.Column="0" Text="T" FontWeight="Bold" />
+                        <TextBlock Grid.Row="19" Grid.Column="1" Text="1921"  />
+                        <TextBlock Grid.Row="19" Grid.Column="2" Text="1945"  />
+                        <TextBlock Grid.Row="19" Grid.Column="3" Text="1969"  />
+                        <TextBlock Grid.Row="19" Grid.Column="4" Text="1993"  />
+                        <TextBlock Grid.Row="19" Grid.Column="5" Text="2017"  />
+
+                        <TextBlock Grid.Row="20" Grid.Column="0" Text="U" FontWeight="Bold" />
+                        <TextBlock Grid.Row="20" Grid.Column="1" Text="1922"  />
+                        <TextBlock Grid.Row="20" Grid.Column="2" Text="1946"  />
+                        <TextBlock Grid.Row="20" Grid.Column="3" Text="1970"  />
+                        <TextBlock Grid.Row="20" Grid.Column="4" Text="1994"  />
+                        <TextBlock Grid.Row="20" Grid.Column="5" Text="2018"  />
+
+                        <TextBlock Grid.Row="21" Grid.Column="0" Text="V" FontWeight="Bold" />
+                        <TextBlock Grid.Row="21" Grid.Column="1" Text="1923"  />
+                        <TextBlock Grid.Row="21" Grid.Column="2" Text="1947"  />
+                        <TextBlock Grid.Row="21" Grid.Column="3" Text="1971"  />
+                        <TextBlock Grid.Row="21" Grid.Column="4" Text="1995"  />
+                        <TextBlock Grid.Row="21" Grid.Column="5" Text="2019"  />
+
+                        <TextBlock Grid.Row="22" Grid.Column="0" Text="X" FontWeight="Bold" />
+                        <TextBlock Grid.Row="22" Grid.Column="1" Text="1924"  />
+                        <TextBlock Grid.Row="22" Grid.Column="2" Text="1948"  />
+                        <TextBlock Grid.Row="22" Grid.Column="3" Text="1972"  />
+                        <TextBlock Grid.Row="22" Grid.Column="4" Text="1996"  />
+                        <TextBlock Grid.Row="22" Grid.Column="5" Text="2020"  />
+
+                        <TextBlock Grid.Row="23" Grid.Column="0" Text="Y" FontWeight="Bold" />
+                        <TextBlock Grid.Row="23" Grid.Column="1" Text="1925"  />
+                        <TextBlock Grid.Row="23" Grid.Column="2" Text="1949"  />
+                        <TextBlock Grid.Row="23" Grid.Column="3" Text="1973"  />
+                        <TextBlock Grid.Row="23" Grid.Column="4" Text="1997"  />
+                        <TextBlock Grid.Row="23" Grid.Column="5" Text="2021"  />
+
+                        <TextBlock Grid.Row="24" Grid.Column="0" Text="Z" FontWeight="Bold" />
+                        <TextBlock Grid.Row="24" Grid.Column="1" Text="1926"  />
+                        <TextBlock Grid.Row="24" Grid.Column="2" Text="1950"  />
+                        <TextBlock Grid.Row="24" Grid.Column="3" Text="1974"  />
+                        <TextBlock Grid.Row="24" Grid.Column="4" Text="1998"  />
+                        <TextBlock Grid.Row="24" Grid.Column="5" Text="2022"  />
+
+                        <TextBlock Grid.Row="25" Grid.Column="0" Text=" " FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="1" Text="7" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="2" Text="8" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="3" Text="9" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="4" Text="10" FontWeight="Bold" />
+                        <TextBlock Grid.Row="25" Grid.Column="5" Text="11" FontWeight="Bold" />
+
+                    </Grid>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Information">
+                <ScrollViewer >
+                    <Grid Background="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Height="30" HorizontalAlignment="Left" x:Name="textBlockPriser" Text="Aktuella priser" VerticalAlignment="Top" Foreground="Black" Grid.ColumnSpan="2" Width="188" />
+                        <TextBlock Grid.ColumnSpan="2" Height="30" HorizontalAlignment="Left" Margin="0,26,0,0" x:Name="textBlockSilver" Text="Silverpris ej tillgängligt" VerticalAlignment="Top" Foreground="Black" />
+                        <TextBlock Grid.ColumnSpan="2" Height="30" HorizontalAlignment="Left" Margin="0,52,0,0" x:Name="textBlockGold" Text="Guldpris ej tillgängligt" VerticalAlignment="Top" Foreground="Black" />
+                        <Image Grid.Row="1" Height="61" HorizontalAlignment="Left" x:Name="imageGuld" Stretch="Uniform" VerticalAlignment="Top" Width="107" Source="/Silver;component/Images/Years/kattfot.png" />
+                        <Image Grid.Row="2" Height="64" HorizontalAlignment="Left" x:Name="imagePlatina" Stretch="Uniform" VerticalAlignment="Top" Width="127" Source="/Silver;component/Images/Years/p.png" />
+                        <Image Grid.Row="3" Height="61" HorizontalAlignment="Left" x:Name="imageSilver" Stretch="Uniform" VerticalAlignment="Top" Width="124" Source="/Silver;component/Images/Years/s.png" />
+                        <TextBlock Grid.Column="1" Grid.Row="1" Foreground="Black" Height="30" HorizontalAlignment="Left"  x:Name="textBlockGuld" Text="Guld (Troy ounce=31,10 g)" VerticalAlignment="Top"  />
+                        <TextBlock Grid.Column="1" Grid.Row="2" Foreground="Black" Height="30" HorizontalAlignment="Left"  x:Name="textBlockPlatina" Text="Platina" VerticalAlignment="Top"   />
+                        <TextBlock Grid.Column="1" Grid.Row="3" Foreground="Black" Height="30" HorizontalAlignment="Left"  x:Name="textBlockSilver1" Text="Verksilver (83%)" VerticalAlignment="Top"/>
+                        <TextBlock Grid.Column="1" Grid.Row="3" Foreground="Black" Height="30" HorizontalAlignment="Left"  x:Name="textBlockSilver2" Text="Sterlingsilver (92,5%)" VerticalAlignment="Top" Margin="0,30,0,0" />
+                        <TextBlock Grid.ColumnSpan="2" Grid.Row="4" Height="30" HorizontalAlignment="Left" x:Name="textBlockNysilver" Text="NS: Nysilver (koppar + zink + nickel)" VerticalAlignment="Top" Foreground="Black" />
+                        <TextBlock Grid.ColumnSpan="2" Grid.Row="4" Height="30" HorizontalAlignment="Left" Margin="0,30,0,0" x:Name="textBlockAlpacka" Text="ALP: Alpacca (~Nysilver)" VerticalAlignment="Top" Foreground="Black" />
+                        <TextBlock Grid.ColumnSpan="2" Grid.Row="4" Height="30" HorizontalAlignment="Left" Margin="0,60,0,0" x:Name="textBlockBrons" Text="Brons (koppar + tenn)" VerticalAlignment="Top" Foreground="Black" />
+                        <TextBlock Grid.ColumnSpan="2" Grid.Row="4" Height="30" HorizontalAlignment="Left" Margin="0,90,0,0" x:Name="textBlockMessing" Text="Mässing (koppar + zink)" VerticalAlignment="Top" Foreground="Black" />
+                    </Grid>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Om">
+                <Grid>
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="0,0,0,0" x:Name="textBlockAppName" Text="Sakletarhjälp v1.0" VerticalAlignment="Top" />
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="0,26,0,0" x:Name="textBlockCopyright" Text="© 2012 Dahlman Labs" VerticalAlignment="Top" />
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+
+    </Grid>
+</phone:PhoneApplicationPage>
